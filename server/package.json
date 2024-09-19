@@ -1,0 +1,37 @@
+{
+  "name": "areca-essence-backend",
+  "version": "1.0.0",
+  "description": "E-commerse website to sell eco friendly Areca products",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DXLeGenD/Areca-Essence-BackEnd.git"
+  },
+  "author": "Arfath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DXLeGenD/Areca-Essence-BackEnd/issues"
+  },
+  "homepage": "https://github.com/DXLeGenD/Areca-Essence-BackEnd#readme",
+  "dependencies": {
+    "areca-essence": "file:..",
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.1",
+    "multer": "^1.4.5-lts.1",
+    "stripe": "^16.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  }
+}

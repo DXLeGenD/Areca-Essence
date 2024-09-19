@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#coverImage {
+    background: url(./assets/cover.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-position: center;
+}
